@@ -3,17 +3,63 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 <head>
   <title>Comms Sheet</title>
+  <style>
+    body {
+      background-image: url('NardoFireBall4k.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    h1 {
+        font-family:Helvetica, Sans-serif;
+        background-color: rgb(168, 111, 35);
+        color: rgb(235, 215, 233)
+       
+        
+    }
+    h1 {
+        text-decoration: underline;
+        text-shadow: 1ch;
+    }
+
+    
+
+    p span{
+        background-color: rgb(168, 111, 35);
+        color: rgb(235, 215, 233)
+        
+
+    }
+    p span{outline-color:red;
+    text-decoration: underline;
+    font-size: large;
+    }
+
+    
+    </style>
+
 <body>
 <h1 style="text-align:center">Yoyo's Commissions</h1>
-<p style="text-align:center">Contact me: Yoyo_Rouge#5259</p>
-
+<p style="text-align:center" id="contactDetails"><span>Contact me: Yoyo_Rouge#5259</p></span>
+<button onclick="copyDetails()">Copy details</button>
 
 
 
 
   
 
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="script.js">
+    function copyDetails()
+    {
+        var copyText = document.getElementById("contactDetails");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+    }
+
+
+</script>
 
 </body>
   </head>
