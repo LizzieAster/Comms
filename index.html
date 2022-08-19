@@ -42,7 +42,19 @@
 <body>
 <h1 style="text-align:center">Yoyo's Commissions</h1>
 <p style="text-align:center" id="contactDetails"><span>Contact me: Yoyo_Rouge#5259</p></span>
-<button onclick="copyDetails()">Copy details</button>
+
+<div class="container">
+    <div class="label">
+        Contact Details
+    </div>
+    <div class="copy-text">
+        <input type="text" class="text" value="YoyoRouge#5259">
+        <button>
+            <i class="fa fa-clone"></i>
+        </button>
+    </div>
+</div>
+
 
 
 
@@ -50,14 +62,7 @@
   
 
 <script type="text/javascript" src="script.js">
-    function copyDetails()
-    {
-        var copyText = document.getElementById("contactDetails");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999);
-        navigator.clipboard.writeText(copyText.value);
-    }
-
+   
 
 </script>
 
