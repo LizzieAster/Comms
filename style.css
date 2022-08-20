@@ -54,6 +54,10 @@ border-radius:20px;
     -ms-border-radius:5px;
     -o-border-radius:5px;
 }
+.copy-text button:hover
+{
+    color:rgb(235, 215, 233);
+}
 .copy-text button:active
 {
     background:rgb(194, 133, 79);
@@ -78,5 +82,28 @@ border-radius:20px;
 .copy-text.active button:before
 {
  display:block;
+}
+.social-icon-table
+{
+    width:100%;
+    text-align:right;
+    
+}
+
+
+.social-icon
+{
+    color:rgb(235, 215, 233);
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    
+    
+}
+.social-icon:hover
+{
+    color:rgb(92, 92, 92)
 }
 
