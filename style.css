@@ -1,0 +1,82 @@
+.container
+{
+   position:absolute;
+}
+
+.label
+{
+padding:2px;
+font-size:large;
+color:rgb(235, 215, 233);
+background:rgb(168, 111, 35);
+text-decoration: underline;
+font-family:Helvetica, Sans-serif;
+border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+
+.copy-text
+{
+    position:relative;
+    padding:10px;
+    background:transparent;
+    display:flex;
+
+}
+
+.copy-text input.text
+{
+    background:rgb(168, 111, 35);
+    font-family:Helvetica, Sans-serif;
+    color:rgb(235, 215, 233);
+    border:none;
+    font-size:large;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+
+.copy-text button
+{
+    padding:5px;
+    font-size:15px;
+    border:none;
+    cursor:pointer;
+    background:sandybrown;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.copy-text button:active
+{
+    background:rgb(194, 133, 79);
+}
+.copy-text button:before
+{
+    content:"Copied";
+    position:absolute;
+    top:-45px;
+    right:0px;
+    background:sandybrown;
+    padding:2px 2.5px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    color:rgb(34, 33, 26);
+    font-weight: bold;
+    display:none;
+}
+.copy-text.active button:before
+{
+ display:block;
+}
+
