@@ -8,6 +8,9 @@
 <head>
   <title>Comms Sheet</title>
   <style>
+    *{box-sizing:border-box;}
+    
+
     body {
       background-image: url('NardoFireBall4k.png');
       background-repeat: no-repeat;
@@ -15,15 +18,13 @@
       background-size: cover;
       min-height: 100%;
       background-position:center top;
+      
     }
 
     h1 {
         font-family:Helvetica, Sans-serif;
         background-color: rgb(168, 111, 35);
         color: rgb(235, 215, 233)
-        
-       
-        
     }
     h1 {
         text-decoration: underline;
@@ -32,6 +33,13 @@
     -moz-border-radius:20px;
     -ms-border-radius:20px;
     -o-border-radius:20px;
+    }
+    @media (max-width:600px)
+    {
+        .column.side,.column.middle
+        {
+            width:100%;
+        }
     }
     
     </style>
@@ -53,16 +61,27 @@
     </div>
 </div>
 
+
+
 <div class="social-icon-table">
-<a class="social-icon" href="https://twitter.com/Yoyo_Rouge" target="_blank"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
-<a class="social-icon" href="https://www.instagram.com/yoyo_rouge" target="_blank"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+    <a class="social-icon" href="https://twitter.com/Yoyo_Rouge" target="_blank"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
+    <a class="social-icon" href="https://www.instagram.com/yoyo_rouge" target="_blank"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+    </div>
+
+<div class="row">
+    <div class="column side" style="background-color:blanchedalmond">Column</div>
+    <div class="column middle" style="background-color:rgba(255, 235, 205, 0.753)">Column</div>
+    <div class="column side" style="background-color:rgb(199, 141, 54)">Column</div>
 </div>
+
+
 
 
 <script type="text/javascript" src="script.js">
    
 
 </script>
+
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

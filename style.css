@@ -1,6 +1,6 @@
 .container
 {
-   position:absolute;
+    position:sticky
 }
 
 .label
@@ -47,7 +47,7 @@ border-radius:20px;
     font-size:15px;
     border:none;
     cursor:pointer;
-    background:sandybrown;
+    background:rgb(218, 154, 98);
     border-radius:5px;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -105,5 +105,33 @@ border-radius:20px;
 .social-icon:hover
 {
     color:rgb(92, 92, 92)
+}
+
+.column 
+{
+    float:left;
+    padding:10px;
+    position:relative
+}
+
+.column.side
+{
+    width:100%;
+    position:relative
+}
+
+
+.column.middle 
+{
+    width:100%;
+    position:relative
+}
+
+.row:after 
+{
+    content: "";
+    display:table;
+    clear:both;
+    
 }
 
