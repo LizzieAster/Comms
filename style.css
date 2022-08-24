@@ -1,14 +1,23 @@
+#contact
+{
+    padding:20px
+}
+
+
 .container
 {
     position:sticky
+    
 }
+
+
 
 .label
 {
 padding:2px;
 font-size:large;
 color:rgb(235, 215, 233);
-background:rgb(168, 111, 35);
+background:rgb(185, 90, 154);
 text-decoration: underline;
 font-family:Helvetica, Sans-serif;
 border-radius:20px;
@@ -29,7 +38,7 @@ border-radius:20px;
 
 .copy-text input.text
 {
-    background:rgb(168, 111, 35);
+    background:rgb(185, 90, 154);
     font-family:Helvetica, Sans-serif;
     color:rgb(235, 215, 233);
     border:none;
@@ -47,7 +56,7 @@ border-radius:20px;
     font-size:15px;
     border:none;
     cursor:pointer;
-    background:rgb(218, 154, 98);
+    background:rgb(185, 90, 154);
     border-radius:5px;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -60,7 +69,7 @@ border-radius:20px;
 }
 .copy-text button:active
 {
-    background:rgb(194, 133, 79);
+    background:rgb(247, 80, 233);
 }
 .copy-text button:before
 {
@@ -68,14 +77,14 @@ border-radius:20px;
     position:absolute;
     top:-45px;
     right:0px;
-    background:sandybrown;
+    background:rgb(244, 96, 232);
     padding:2px 2.5px;
     border-radius:20px;
     -webkit-border-radius:20px;
     -moz-border-radius:20px;
     -ms-border-radius:20px;
     -o-border-radius:20px;
-    color:rgb(34, 33, 26);
+    color:rgb(167, 145, 159);
     font-weight: bold;
     display:none;
 }
@@ -112,6 +121,7 @@ border-radius:20px;
     float:left;
     padding:10px;
     position:relative
+    
 }
 
 .column.side
@@ -125,6 +135,7 @@ border-radius:20px;
 {
     width:100%;
     position:relative
+    
 }
 
 .row:after 
@@ -132,6 +143,17 @@ border-radius:20px;
     content: "";
     display:table;
     clear:both;
+   
     
 }
+
+.row
+{
+    height: fit-content;
+    font-family:Helvetica, Sans-serif;
+    width: 500px;
+   text-align:justify;
+   color:rgb(88, 64, 87);
+}
+
 
